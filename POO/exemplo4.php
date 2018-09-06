@@ -22,5 +22,5 @@ class Endereco{
 
 $meuEndereco = new Endereco("Rua cava", "1234", "Santos");
 //var_dump($meuEndereco);
-echo $meuEndereco;	
+echo $meuEndereco;
 ?>
