@@ -37,6 +37,10 @@ class Cadastro{
 		));
 	}
 
+	public function registrarVenda(){
+		echo "Foi registrada uma venda errada para o cliente " . $this->getNome();
+	}
+
 
 }
 
