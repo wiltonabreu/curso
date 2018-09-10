@@ -1,7 +1,6 @@
 <?php 
 
-//$conn = new PDO("sqlsrv:Database=dbphp7;server=localhost/SQLEXPRESS;ConnectionPooling=0","sa","123.qwe!@#");
-$conn = new PDO("dblib:host=localhost;dbname=sgt","sa","123.qwe!@#");
+$conn = new PDO("mysql:dbname=dbphp7;host=localhost","root", "123456");
 
 $stmt = $conn->prepare("select * from tb_usuarios");
 
