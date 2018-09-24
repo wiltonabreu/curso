@@ -1,0 +1,16 @@
+{
+    "name": "wiltonabreu/composer",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "wiltonabreu",
+            "email": "wiltonabreuu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+        "monolog/monolog":"1.0.*"
+    }
+}
